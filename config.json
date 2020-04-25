@@ -1,0 +1,51 @@
+{
+    "options": {
+      "paths": {
+        "root": "/root/.nvm/versions/node/v4.8.3/lib/node_modules/tileserver-gl/node_modules/tileserver-gl-styles",
+        "fonts": "fonts",
+        "glyphs": "{fontstack}/{range}.pbf",
+        "styles": "styles",
+        "mbtiles": "/opt/TileServer"
+      }
+    },
+    "styles": {
+      "dark-matter-gl-style": {
+        "style": "dark/style-local.json",
+        "tilejson": {
+          "bounds": [
+            73.3997347,
+            14.8082548,
+            134.8754563,
+            53.6608154
+          ]
+        }
+      },
+      "klokantech-basic": {
+        "style": "klokantech-basic/style.json",
+        "tilejson": {
+          "bounds": [
+            73.3997347,
+            14.8082548,
+            134.8754563,
+            53.6608154
+          ]
+        }
+      },
+      "osm-bright": {
+        "style": "osm-bright/style.json",
+        "tilejson": { 
+         "bounds": [
+            73.3997347,
+            14.8082548,
+            134.8754563,
+            53.6608154
+          ]
+        }
+      }
+    },
+    "data": {
+      "v3": {
+        "mbtiles": "china.mbtiles"
+      }
+    }
+  }
